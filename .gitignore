@@ -1,2 +1,6 @@
 records/audio_separation/TEST_MUSIC/backup/model.pt
 ckpt/
+records/
+data/
+musdb18_wav/
+run_original.py
