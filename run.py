@@ -25,7 +25,6 @@ def compute_pesq(rate, original, predicted):
     predicted_downsampled = resampler(torch.tensor(predicted))
     
     if original.ndim > 1:
-        # breakpoint()
         channel_pesqs = [pesq(new_freq, original_downsampled[i].numpy(), predicted_downsampled[i].numpy(), 'nb') for i in range(original_downsampled.shape[0])]
         return sum(channel_pesqs) / len(channel_pesqs)
     else:
@@ -75,6 +74,34 @@ def save_audio(args, audio, title="Audio"):
     os.makedirs(args.audio_dir, exist_ok=True)
     torchaudio.save(args.audio_dir+title+".wav", audio, sample_rate=44100)
 
+# TODO here is an error... Damn xlsm/xlsx data format and openpyxl...... How can they related to zip?
+def save_data_to_excel(data, song_name, source, csv_filename):
+    df = pd.DataFrame(data, index=[song_name])
+    
+    if os.path.exists(csv_filename):
+        book = load_workbook(csv_filename)
+        writer = pd.ExcelWriter(csv_filename, engine='openpyxl')
+        writer.book = book
+
+        if source in book.sheetnames:
+            writer.sheets = {ws.title: ws for ws in book.worksheets}
+            startrow = writer.sheets[source].max_row
+            df.to_excel(writer, index=True, header=False, sheet_name=source, startrow=startrow)
+        else:
+            df.to_excel(writer, sheet_name=source, index=True)
+        writer.save()
+        writer.close()
+    else:
+        with pd.ExcelWriter(csv_filename) as writer:
+            df.to_excel(writer, index=True, sheet_name=source)
+
+    writer.save()
+
+# Sample usage:
+# data_sample = {"metric1": [0.5], "metric2": [0.8]}
+# save_data_to_excel(data_sample, 'song1', 'sourceA', 'results.xlsx')
+
+
 def output_format(args, original_source: torch.Tensor, predicted_source: torch.Tensor, source: str, stft, sample_rate,song_path):
     sdr, st, pe, sn, sir = compute_metrics(original_source, predicted_source, sample_rate)
     song_name = os.path.basename(os.path.dirname(song_path))
@@ -95,7 +122,7 @@ def output_format(args, original_source: torch.Tensor, predicted_source: torch.T
     
     with open(args.save_dir + "logs.txt", "a+") as ftxt:
         ftxt.write(msg)
-    csv_filename = args.save_dir+'results.xlsx'
+    csv_filename = args.save_dir+'results.xlsm'
     data = {}
     data[song_name] = {
         'SDR': sdr,
@@ -104,20 +131,7 @@ def output_format(args, original_source: torch.Tensor, predicted_source: torch.T
         'SNR': sn.item(),
         'SIR': sir
     }
-    df = pd.DataFrame(data, index=[song_name])
-    if os.path.exists(csv_filename):
-        book = load_workbook(csv_filename) #TODO error
-        writer = pd.ExcelWriter(csv_filename, engine='openpyxl')
-        writer.book = book
-        if source in book.sheetnames:
-            writer.sheets = {ws.title:ws for ws in book.worksheets}
-            startrow = writer.sheets[source].max_row
-            df.to_excel(writer, index=True, header=False, sheet_name=source, startrow=startrow)
-        else:
-           df.to_excel(writer, sheet_name=source, index=True)
-    else:
-        with pd.ExcelWriter(csv_filename) as writer:
-            df.to_excel(writer, index=True, sheet_name=source)
+    save_data_to_excel(data, song_name, source, csv_filename)
     
     save_spectrum(args=args, stft=stft(predicted_source)[0], title=f"Predicted_Spectrogram-{source}")
     save_spectrum(args=args, stft=stft(original_source)[0], title=f"Original_Spectrogram-{source}")
