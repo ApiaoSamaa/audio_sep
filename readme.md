@@ -25,9 +25,9 @@ And then you will see results from `records` folder.
 
 ### 2.1 Dataset
 
-The first thing to do should always be data. We use the following dataset from [zenodo](https://zenodo.org/), an open source website that holds all kinds of data. We select the following one:
+The first thing to do should always be data. We use the following dataset from [SigSep](https://sigsep.github.io/datasets/musdb.html#musdb18-compressed-stems), an open source website that holds all kinds of data. We select the following one:
 
-- [MUSDB18](https://zenodo.org/records/1117372)
+- [MUSDB18](https://zenodo.org/record/1117372)
 
 For Southeast University student, we upload the dataset to `pan.seu.edu.cn` to fasten your downloading. Here is a link:
 

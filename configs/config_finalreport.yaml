@@ -1,0 +1,17 @@
+project_name: "finalReport"
+exp_name: "report"
+download_path: "models/hdemucs_high_trained.pt"
+checkpoint_path: "ckpt/model.pt"
+sample_rate: 44100
+sources: ["drums", "bass", "other", "vocals"]
+nfft: 4096
+depth: 6
+use_gpu: false
+device_gpu: "cuda:0"
+use_wandb: false
+segment: 10
+overlap: 0.1
+segment_start: 20
+segment_end: 25
+nhop: 4
+test_dir: './musdb18_wav/test/Mixtures'

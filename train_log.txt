@@ -1,0 +1,445 @@
+- Training...
+- Train | Epoch 1 | 143/573 | 1.45 it/sec | Loss 0.2343 | Reco 0.2312 | Grad 0.1202 | Penalty 304.120
+- Train | Epoch 1 | 286/573 | 1.46 it/sec | Loss 0.2158 | Reco 0.2131 | Grad 0.1086 | Penalty 272.319
+- Train | Epoch 1 | 429/573 | 1.47 it/sec | Loss 0.2075 | Reco 0.2049 | Grad 0.1001 | Penalty 257.955
+- Train | Epoch 1 | 572/573 | 1.48 it/sec | Loss 0.2019 | Reco 0.1994 | Grad 0.0963 | Penalty 247.226
+- Train Summary | Epoch 1 | Loss=0.2019 | Reco=0.1994 | Grad=0.0963 | Penalty=247.2265
+- ----------------------------------------------------------------------
+- Cross validation...
+- Valid | Epoch 1 | 1/3 | 0.31 it/sec | Loss 0.2213 | Reco 0.2213 | Nsdr 3.922
+- Valid | Epoch 1 | 2/3 | 0.37 it/sec | Loss 0.2224 | Reco 0.2224 | Nsdr 3.724
+- Valid | Epoch 1 | 1/3 | 0.32 it/sec | Loss 0.2519 | Reco 0.2519 | Nsdr 2.258
+- Valid | Epoch 1 | 2/3 | 0.38 it/sec | Loss 0.2510 | Reco 0.2510 | Nsdr 2.236
+- Valid | Epoch 1 | 1/3 | 0.32 it/sec | Loss 0.2545 | Reco 0.2545 | Nsdr 2.158
+- Valid | Epoch 1 | 2/3 | 0.39 it/sec | Loss 0.2535 | Reco 0.2535 | Nsdr 2.140
+- Valid | Epoch 1 | 1/3 | 0.32 it/sec | Loss 0.2213 | Reco 0.2213 | Nsdr 3.921
+- Valid | Epoch 1 | 2/3 | 0.38 it/sec | Loss 0.2224 | Reco 0.2224 | Nsdr 3.722
+- Valid | Epoch 1 | 1/3 | 0.32 it/sec | Loss 0.2212 | Reco 0.2212 | Nsdr 3.926
+- Valid | Epoch 1 | 2/3 | 0.39 it/sec | Loss 0.2223 | Reco 0.2223 | Nsdr 3.727
+- Valid Summary | Epoch 1 | Loss=0.2223 | Reco=0.2223 | Nsdr=2.727 | Best=0.2223 | Bname=ema_epoch_1 nalty=221.5717
+- New best valid loss 0.2223
+- ----------------------------------------------------------------------
+- Training...
+- Train | Epoch 2 | 143/573 | 1.47 it/sec | Loss 0.1825 | Reco 0.1803 | Grad 0.0848 | Penalty 214.215
+- Train | Epoch 2 | 286/573 | 1.48 it/sec | Loss 0.1795 | Reco 0.1774 | Grad 0.0819 | Penalty 214.089
+- Train | Epoch 2 | 429/573 | 1.48 it/sec | Loss 0.1770 | Reco 0.1748 | Grad 0.0825 | Penalty 214.175
+- Train | Epoch 2 | 572/573 | 1.48 it/sec | Loss 0.1751 | Reco 0.1728 | Grad 0.0860 | Penalty 231.298
+- Train Summary | Epoch 2 | Loss=0.1751 | Reco=0.1728 | Grad=0.0860 | Penalty=231.2989
+- ----------------------------------------------------------------------
+- Cross validation...
+- Valid | Epoch 2 | 1/3 | 0.32 it/sec | Loss 0.1967 | Reco 0.1967 | Nsdr 4.522
+- Valid | Epoch 2 | 2/3 | 0.38 it/sec | Loss 0.2016 | Reco 0.2016 | Nsdr 4.261
+- Valid | Epoch 2 | 1/3 | 0.30 it/sec | Loss 0.2229 | Reco 0.2229 | Nsdr 3.504
+- Valid | Epoch 2 | 2/3 | 0.36 it/sec | Loss 0.2252 | Reco 0.2252 | Nsdr 3.325
+- Valid | Epoch 2 | 1/3 | 0.30 it/sec | Loss 0.2279 | Reco 0.2279 | Nsdr 3.270
+- Valid | Epoch 2 | 2/3 | 0.36 it/sec | Loss 0.2297 | Reco 0.2297 | Nsdr 3.121
+- Valid | Epoch 2 | 1/3 | 0.30 it/sec | Loss 0.2073 | Reco 0.2073 | Nsdr 4.330
+- Valid | Epoch 2 | 2/3 | 0.36 it/sec | Loss 0.2107 | Reco 0.2107 | Nsdr 4.059
+- Valid | Epoch 2 | 1/3 | 0.31 it/sec | Loss 0.2076 | Reco 0.2076 | Nsdr 4.321
+- Valid | Epoch 2 | 2/3 | 0.37 it/sec | Loss 0.2109 | Reco 0.2109 | Nsdr 4.050
+- Valid Summary | Epoch 2 | Loss=0.2016 | Reco=0.2016 | Nsdr=3.261 | Best=0.2016 | Bname=main | Penal69.4638
+- New best valid loss 0.2016
+- ----------------------------------------------------------------------
+- Training...
+- Train | Epoch 3 | 143/573 | 1.46 it/sec | Loss 0.1658 | Reco 0.1623 | Grad 0.1060 | Penalty 350.489
+- Train | Epoch 3 | 286/573 | 1.47 it/sec | Loss 0.1637 | Reco 0.1602 | Grad 0.1091 | Penalty 343.735
+- Train | Epoch 3 | 429/573 | 1.47 it/sec | Loss 0.1598 | Reco 0.1565 | Grad 0.1077 | Penalty 332.700
+- Train | Epoch 3 | 572/573 | 1.48 it/sec | Loss 0.1572 | Reco 0.1539 | Grad 0.1084 | Penalty 322.353
+- Train Summary | Epoch 3 | Loss=0.1572 | Reco=0.1539 | Grad=0.1084 | Penalty=322.3534
+- ----------------------------------------------------------------------
+- Cross validation...
+- Valid | Epoch 3 | 1/3 | 0.32 it/sec | Loss 0.1771 | Reco 0.1771 | Nsdr 5.228
+- Valid | Epoch 3 | 2/3 | 0.39 it/sec | Loss 0.1820 | Reco 0.1820 | Nsdr 5.027
+- Valid | Epoch 3 | 1/3 | 0.33 it/sec | Loss 0.2075 | Reco 0.2075 | Nsdr 4.151
+- Valid | Epoch 3 | 2/3 | 0.39 it/sec | Loss 0.2118 | Reco 0.2118 | Nsdr 3.883
+- Valid | Epoch 3 | 1/3 | 0.33 it/sec | Loss 0.2138 | Reco 0.2138 | Nsdr 3.874
+- Valid | Epoch 3 | 2/3 | 0.39 it/sec | Loss 0.2175 | Reco 0.2175 | Nsdr 3.634
+- Valid | Epoch 3 | 1/3 | 0.33 it/sec | Loss 0.1976 | Reco 0.1976 | Nsdr 4.624
+- Valid | Epoch 3 | 2/3 | 0.39 it/sec | Loss 0.2021 | Reco 0.2021 | Nsdr 4.337
+- Valid | Epoch 3 | 1/3 | 0.32 it/sec | Loss 0.1984 | Reco 0.1984 | Nsdr 4.603
+- Valid | Epoch 3 | 2/3 | 0.39 it/sec | Loss 0.2029 | Reco 0.2029 | Nsdr 4.315
+- Valid Summary | Epoch 3 | Loss=0.1820 | Reco=0.1820 | Nsdr=4.027 | Best=0.1820 | Bname=main | Penal96.8787
+- New best valid loss 0.1820
+- ----------------------------------------------------------------------
+- Training...
+- Train | Epoch 4 | 143/573 | 1.47 it/sec | Loss 0.1454 | Reco 0.1425 | Grad 0.1112 | Penalty 296.669
+- Train | Epoch 4 | 286/573 | 1.48 it/sec | Loss 0.1431 | Reco 0.1402 | Grad 0.1085 | Penalty 294.052
+- Train | Epoch 4 | 429/573 | 1.48 it/sec | Loss 0.1421 | Reco 0.1392 | Grad 0.1101 | Penalty 292.740
+- Train | Epoch 4 | 572/573 | 1.48 it/sec | Loss 0.1410 | Reco 0.1380 | Grad 0.1088 | Penalty 291.348
+- Train Summary | Epoch 4 | Loss=0.1410 | Reco=0.1380 | Grad=0.1088 | Penalty=291.3485
+- ----------------------------------------------------------------------
+- Cross validation...
+- Valid | Epoch 4 | 1/3 | 0.30 it/sec | Loss 0.1605 | Reco 0.1605 | Nsdr 6.077
+- Valid | Epoch 4 | 2/3 | 0.36 it/sec | Loss 0.1682 | Reco 0.1682 | Nsdr 5.657
+- Valid | Epoch 4 | 1/3 | 0.32 it/sec | Loss 0.1958 | Reco 0.1958 | Nsdr 4.594
+- Valid | Epoch 4 | 2/3 | 0.39 it/sec | Loss 0.2015 | Reco 0.2015 | Nsdr 4.284
+- Valid | Epoch 4 | 1/3 | 0.33 it/sec | Loss 0.2049 | Reco 0.2049 | Nsdr 4.220
+- Valid | Epoch 4 | 2/3 | 0.40 it/sec | Loss 0.2098 | Reco 0.2098 | Nsdr 3.940
+- Valid | Epoch 4 | 1/3 | 0.33 it/sec | Loss 0.1899 | Reco 0.1899 | Nsdr 4.878
+- Valid | Epoch 4 | 2/3 | 0.40 it/sec | Loss 0.1956 | Reco 0.1956 | Nsdr 4.559
+- Valid | Epoch 4 | 1/3 | 0.33 it/sec | Loss 0.1914 | Reco 0.1914 | Nsdr 4.825
+- Valid | Epoch 4 | 2/3 | 0.40 it/sec | Loss 0.1970 | Reco 0.1970 | Nsdr 4.511
+- Valid Summary | Epoch 4 | Loss=0.1682 | Reco=0.1682 | Nsdr=4.657 | Best=0.1682 | Bname=main | Penal86.9639
+- New best valid loss 0.1682
+- ----------------------------------------------------------------------
+- Training...
+- Train | Epoch 5 | 143/573 | 1.49 it/sec | Loss 0.1313 | Reco 0.1283 | Grad 0.0936 | Penalty 296.629
+- Train | Epoch 5 | 286/573 | 1.49 it/sec | Loss 0.1308 | Reco 0.1278 | Grad 0.0989 | Penalty 291.296
+- Train | Epoch 5 | 429/573 | 1.49 it/sec | Loss 0.1307 | Reco 0.1278 | Grad 0.1010 | Penalty 289.872
+- Train | Epoch 5 | 572/573 | 1.49 it/sec | Loss 0.1298 | Reco 0.1269 | Grad 0.0987 | Penalty 287.188
+- Train Summary | Epoch 5 | Loss=0.1298 | Reco=0.1269 | Grad=0.0987 | Penalty=287.1881
+- ----------------------------------------------------------------------
+- Cross validation...
+- Valid | Epoch 5 | 1/3 | 0.29 it/sec | Loss 0.1478 | Reco 0.1478 | Nsdr 6.881
+- Valid | Epoch 5 | 2/3 | 0.35 it/sec | Loss 0.1559 | Reco 0.1559 | Nsdr 6.409
+- Valid | Epoch 5 | 1/3 | 0.29 it/sec | Loss 0.1832 | Reco 0.1832 | Nsdr 5.130
+- Valid | Epoch 5 | 2/3 | 0.36 it/sec | Loss 0.1903 | Reco 0.1903 | Nsdr 4.767
+- Valid | Epoch 5 | 1/3 | 0.30 it/sec | Loss 0.1973 | Reco 0.1973 | Nsdr 4.518
+- Valid | Epoch 5 | 2/3 | 0.37 it/sec | Loss 0.2033 | Reco 0.2033 | Nsdr 4.202
+- Valid | Epoch 5 | 1/3 | 0.30 it/sec | Loss 0.1813 | Reco 0.1813 | Nsdr 5.245
+- Valid | Epoch 5 | 2/3 | 0.36 it/sec | Loss 0.1879 | Reco 0.1879 | Nsdr 4.890
+- Valid | Epoch 5 | 1/3 | 0.31 it/sec | Loss 0.1841 | Reco 0.1841 | Nsdr 5.127
+- Valid | Epoch 5 | 2/3 | 0.37 it/sec | Loss 0.1906 | Reco 0.1906 | Nsdr 4.776
+- Valid Summary | Epoch 5 | Loss=0.1559 | Reco=0.1559 | Nsdr=5.409 | Best=0.1559 | Bname=main | Penal82.5217
+- New best valid loss 0.1559
+- ----------------------------------------------------------------------
+- Training...
+- Train | Epoch 6 | 143/573 | 1.47 it/sec | Loss 0.1265 | Reco 0.1237 | Grad 0.0994 | Penalty 278.171
+- Train | Epoch 6 | 286/573 | 1.49 it/sec | Loss 0.1233 | Reco 0.1205 | Grad 0.0960 | Penalty 279.707
+- Train | Epoch 6 | 429/573 | 1.49 it/sec | Loss 0.1244 | Reco 0.1216 | Grad 0.0959 | Penalty 277.491
+- Train | Epoch 6 | 572/573 | 1.48 it/sec | Loss 0.1243 | Reco 0.1215 | Grad 0.0946 | Penalty 276.946
+- Train Summary | Epoch 6 | Loss=0.1243 | Reco=0.1215 | Grad=0.0946 | Penalty=276.9466
+- ----------------------------------------------------------------------
+- Cross validation...
+- Valid | Epoch 6 | 1/3 | 0.30 it/sec | Loss 0.1407 | Reco 0.1407 | Nsdr 7.205
+- Valid | Epoch 6 | 2/3 | 0.36 it/sec | Loss 0.1478 | Reco 0.1478 | Nsdr 6.767
+- Valid | Epoch 6 | 1/3 | 0.30 it/sec | Loss 0.1693 | Reco 0.1693 | Nsdr 5.806
+- Valid | Epoch 6 | 2/3 | 0.37 it/sec | Loss 0.1769 | Reco 0.1769 | Nsdr 5.392
+- Valid | Epoch 6 | 1/3 | 0.30 it/sec | Loss 0.1904 | Reco 0.1904 | Nsdr 4.811
+- Valid | Epoch 6 | 2/3 | 0.36 it/sec | Loss 0.1972 | Reco 0.1972 | Nsdr 4.461
+- Valid | Epoch 6 | 1/3 | 0.30 it/sec | Loss 0.1712 | Reco 0.1712 | Nsdr 5.712
+- Valid | Epoch 6 | 2/3 | 0.36 it/sec | Loss 0.1787 | Reco 0.1787 | Nsdr 5.304
+- Valid | Epoch 6 | 1/3 | 0.29 it/sec | Loss 0.1762 | Reco 0.1762 | Nsdr 5.473
+- Valid | Epoch 6 | 2/3 | 0.36 it/sec | Loss 0.1834 | Reco 0.1834 | Nsdr 5.088
+- Valid Summary | Epoch 6 | Loss=0.1478 | Reco=0.1478 | Nsdr=5.767 | Best=0.1478 | Bname=main | Penal74.3703
+- New best valid loss 0.1478
+- ----------------------------------------------------------------------
+- Training...
+- Train | Epoch 7 | 143/573 | 1.44 it/sec | Loss 0.1162 | Reco 0.1134 | Grad 0.0960 | Penalty 278.046
+- Train | Epoch 7 | 286/573 | 1.46 it/sec | Loss 0.1207 | Reco 0.1180 | Grad 0.0958 | Penalty 274.992
+- Train | Epoch 7 | 429/573 | 1.47 it/sec | Loss 0.1208 | Reco 0.1181 | Grad 0.0958 | Penalty 272.806
+- Train | Epoch 7 | 572/573 | 1.47 it/sec | Loss 0.1205 | Reco 0.1178 | Grad 0.0951 | Penalty 273.229
+- Train Summary | Epoch 7 | Loss=0.1205 | Reco=0.1178 | Grad=0.0951 | Penalty=273.2295
+- ----------------------------------------------------------------------
+- Cross validation...
+- Valid | Epoch 7 | 1/3 | 0.30 it/sec | Loss 0.1380 | Reco 0.1380 | Nsdr 7.434
+- Valid | Epoch 7 | 2/3 | 0.36 it/sec | Loss 0.1462 | Reco 0.1462 | Nsdr 6.926
+- Valid | Epoch 7 | 1/3 | 0.30 it/sec | Loss 0.1585 | Reco 0.1585 | Nsdr 6.334
+- Valid | Epoch 7 | 2/3 | 0.36 it/sec | Loss 0.1662 | Reco 0.1662 | Nsdr 5.903
+- Valid | Epoch 7 | 1/3 | 0.29 it/sec | Loss 0.1834 | Reco 0.1834 | Nsdr 5.118
+- Valid | Epoch 7 | 2/3 | 0.36 it/sec | Loss 0.1908 | Reco 0.1908 | Nsdr 4.740
+- Valid | Epoch 7 | 1/3 | 0.30 it/sec | Loss 0.1635 | Reco 0.1635 | Nsdr 6.098
+- Valid | Epoch 7 | 2/3 | 0.36 it/sec | Loss 0.1711 | Reco 0.1711 | Nsdr 5.674
+- Valid | Epoch 7 | 1/3 | 0.30 it/sec | Loss 0.1688 | Reco 0.1688 | Nsdr 5.840
+- Valid | Epoch 7 | 2/3 | 0.36 it/sec | Loss 0.1764 | Reco 0.1764 | Nsdr 5.426
+- Valid Summary | Epoch 7 | Loss=0.1462 | Reco=0.1462 | Nsdr=5.926 | Best=0.1462 | Bname=main | Penal90.9231
+- New best valid loss 0.1462
+- ----------------------------------------------------------------------
+- Training...
+- Train | Epoch 8 | 143/573 | 1.42 it/sec | Loss 0.1181 | Reco 0.1154 | Grad 0.0902 | Penalty 274.732
+- Train | Epoch 8 | 286/573 | 1.43 it/sec | Loss 0.1167 | Reco 0.1139 | Grad 0.0902 | Penalty 277.359
+- Train | Epoch 8 | 429/573 | 1.44 it/sec | Loss 0.1168 | Reco 0.1140 | Grad 0.0910 | Penalty 278.151
+- Train | Epoch 8 | 572/573 | 1.45 it/sec | Loss 0.1158 | Reco 0.1130 | Grad 0.0882 | Penalty 278.919
+- Train Summary | Epoch 8 | Loss=0.1158 | Reco=0.1130 | Grad=0.0882 | Penalty=278.9193
+- ----------------------------------------------------------------------
+- Cross validation...
+- Valid | Epoch 8 | 1/3 | 0.33 it/sec | Loss 0.1326 | Reco 0.1326 | Nsdr 7.769
+- Valid | Epoch 8 | 2/3 | 0.39 it/sec | Loss 0.1406 | Reco 0.1406 | Nsdr 7.239
+- Valid | Epoch 8 | 1/3 | 0.32 it/sec | Loss 0.1498 | Reco 0.1498 | Nsdr 6.782
+- Valid | Epoch 8 | 2/3 | 0.39 it/sec | Loss 0.1572 | Reco 0.1572 | Nsdr 6.346
+- Valid | Epoch 8 | 1/3 | 0.32 it/sec | Loss 0.1766 | Reco 0.1766 | Nsdr 5.439
+- Valid | Epoch 8 | 2/3 | 0.38 it/sec | Loss 0.1844 | Reco 0.1844 | Nsdr 5.038
+- Valid | Epoch 8 | 1/3 | 0.32 it/sec | Loss 0.1573 | Reco 0.1573 | Nsdr 6.399
+- Valid | Epoch 8 | 2/3 | 0.38 it/sec | Loss 0.1651 | Reco 0.1651 | Nsdr 5.961
+- Valid | Epoch 8 | 1/3 | 0.30 it/sec | Loss 0.1633 | Reco 0.1633 | Nsdr 6.097
+- Valid | Epoch 8 | 2/3 | 0.36 it/sec | Loss 0.1710 | Reco 0.1710 | Nsdr 5.671
+- Valid Summary | Epoch 8 | Loss=0.1406 | Reco=0.1406 | Nsdr=6.239 | Best=0.1406 | Bname=main | Penal83.0620
+- New best valid loss 0.1406
+- ----------------------------------------------------------------------
+- Training...
+- Train | Epoch 9 | 143/573 | 1.40 it/sec | Loss 0.1171 | Reco 0.1142 | Grad 0.0880 | Penalty 288.777
+- Train | Epoch 9 | 286/573 | 1.42 it/sec | Loss 0.1142 | Reco 0.1112 | Grad 0.0906 | Penalty 299.552
+- Train | Epoch 9 | 429/573 | 1.43 it/sec | Loss 0.1142 | Reco 0.1112 | Grad 0.0901 | Penalty 296.198
+- Train | Epoch 9 | 572/573 | 1.43 it/sec | Loss 0.1133 | Reco 0.1104 | Grad 0.0899 | Penalty 294.980
+- Train Summary | Epoch 9 | Loss=0.1133 | Reco=0.1104 | Grad=0.0899 | Penalty=294.9805
+- ----------------------------------------------------------------------
+- Cross validation...
+- Valid | Epoch 9 | 1/3 | 0.30 it/sec | Loss 0.1327 | Reco 0.1327 | Nsdr 7.784
+- Valid | Epoch 9 | 2/3 | 0.37 it/sec | Loss 0.1388 | Reco 0.1388 | Nsdr 7.350
+- Valid | Epoch 9 | 1/3 | 0.30 it/sec | Loss 0.1428 | Reco 0.1428 | Nsdr 7.154
+- Valid | Epoch 9 | 2/3 | 0.36 it/sec | Loss 0.1501 | Reco 0.1501 | Nsdr 6.711
+- Valid | Epoch 9 | 1/3 | 0.32 it/sec | Loss 0.1711 | Reco 0.1711 | Nsdr 5.703
+- Valid | Epoch 9 | 2/3 | 0.38 it/sec | Loss 0.1787 | Reco 0.1787 | Nsdr 5.299
+- Valid | Epoch 9 | 1/3 | 0.29 it/sec | Loss 0.1525 | Reco 0.1525 | Nsdr 6.650
+- Valid | Epoch 9 | 2/3 | 0.36 it/sec | Loss 0.1602 | Reco 0.1602 | Nsdr 6.207
+- Valid | Epoch 9 | 1/3 | 0.30 it/sec | Loss 0.1587 | Reco 0.1587 | Nsdr 6.335
+- Valid | Epoch 9 | 2/3 | 0.37 it/sec | Loss 0.1664 | Reco 0.1664 | Nsdr 5.899
+- Valid Summary | Epoch 9 | Loss=0.1388 | Reco=0.1388 | Nsdr=6.350 | Best=0.1388 | Bname=main | Penal86.8787
+- New best valid loss 0.1388
+- ----------------------------------------------------------------------
+- Training...
+- Train | Epoch 10 | 143/573 | 1.40 it/sec | Loss 0.1118 | Reco 0.1088 | Grad 0.0904 | Penalty 294.08
+- Train | Epoch 10 | 286/573 | 1.41 it/sec | Loss 0.1109 | Reco 0.1080 | Grad 0.0908 | Penalty 296.84
+- Train | Epoch 10 | 429/573 | 1.42 it/sec | Loss 0.1113 | Reco 0.1084 | Grad 0.0920 | Penalty 294.69
+- Train | Epoch 10 | 572/573 | 1.43 it/sec | Loss 0.1117 | Reco 0.1087 | Grad 0.0925 | Penalty 295.05
+- Train Summary | Epoch 10 | Loss=0.1117 | Reco=0.1087 | Grad=0.0925 | Penalty=295.0588
+- ----------------------------------------------------------------------
+- Cross validation...
+- Valid | Epoch 10 | 1/3 | 0.30 it/sec | Loss 0.1290 | Reco 0.1290 | Nsdr 7.962
+- Valid | Epoch 10 | 2/3 | 0.36 it/sec | Loss 0.1355 | Reco 0.1355 | Nsdr 7.524
+- Valid | Epoch 10 | 1/3 | 0.32 it/sec | Loss 0.1370 | Reco 0.1370 | Nsdr 7.483
+- Valid | Epoch 10 | 2/3 | 0.38 it/sec | Loss 0.1440 | Reco 0.1440 | Nsdr 7.041
+- Valid | Epoch 10 | 1/3 | 0.29 it/sec | Loss 0.1658 | Reco 0.1658 | Nsdr 5.968
+- Valid | Epoch 10 | 2/3 | 0.36 it/sec | Loss 0.1737 | Reco 0.1737 | Nsdr 5.540
+- Valid | Epoch 10 | 1/3 | 0.31 it/sec | Loss 0.1480 | Reco 0.1480 | Nsdr 6.891
+- Valid | Epoch 10 | 2/3 | 0.37 it/sec | Loss 0.1555 | Reco 0.1555 | Nsdr 6.442
+- Valid | Epoch 10 | 1/3 | 0.30 it/sec | Loss 0.1548 | Reco 0.1548 | Nsdr 6.533
+- Valid | Epoch 10 | 2/3 | 0.36 it/sec | Loss 0.1626 | Reco 0.1626 | Nsdr 6.085
+- Valid Summary | Epoch 10 | Loss=0.1355 | Reco=0.1355 | Nsdr=6.724 | Best=0.1355 | Bname=main | Pena294.2852
+- New best valid loss 0.1355
+- ----------------------------------------------------------------------
+- Training...
+- Train | Epoch 11 | 143/573 | 1.39 it/sec | Loss 0.1082 | Reco 0.1053 | Grad 0.0844 | Penalty 291.47
+- Train | Epoch 11 | 286/573 | 1.40 it/sec | Loss 0.1096 | Reco 0.1067 | Grad 0.0852 | Penalty 290.52
+- Train | Epoch 11 | 429/573 | 1.40 it/sec | Loss 0.1104 | Reco 0.1074 | Grad 0.0865 | Penalty 293.78
+- Train | Epoch 11 | 572/573 | 1.41 it/sec | Loss 0.1095 | Reco 0.1065 | Grad 0.0888 | Penalty 298.57
+- Train Summary | Epoch 11 | Loss=0.1095 | Reco=0.1065 | Grad=0.0888 | Penalty=298.5703
+- ----------------------------------------------------------------------
+- Cross validation...
+- Valid | Epoch 11 | 1/3 | 0.32 it/sec | Loss 0.1282 | Reco 0.1282 | Nsdr 8.081
+- Valid | Epoch 11 | 2/3 | 0.39 it/sec | Loss 0.1350 | Reco 0.1350 | Nsdr 7.593
+- Valid | Epoch 11 | 1/3 | 0.32 it/sec | Loss 0.1321 | Reco 0.1321 | Nsdr 7.779
+- Valid | Epoch 11 | 2/3 | 0.39 it/sec | Loss 0.1390 | Reco 0.1390 | Nsdr 7.334
+- Valid | Epoch 11 | 1/3 | 0.32 it/sec | Loss 0.1609 | Reco 0.1609 | Nsdr 6.213
+- Valid | Epoch 11 | 2/3 | 0.39 it/sec | Loss 0.1688 | Reco 0.1688 | Nsdr 5.778
+- Valid | Epoch 11 | 1/3 | 0.32 it/sec | Loss 0.1440 | Reco 0.1440 | Nsdr 7.099
+- Valid | Epoch 11 | 2/3 | 0.39 it/sec | Loss 0.1515 | Reco 0.1515 | Nsdr 6.647
+- Valid | Epoch 11 | 1/3 | 0.32 it/sec | Loss 0.1513 | Reco 0.1513 | Nsdr 6.710
+- Valid | Epoch 11 | 2/3 | 0.39 it/sec | Loss 0.1589 | Reco 0.1589 | Nsdr 6.270
+- Valid Summary | Epoch 11 | Loss=0.1350 | Reco=0.1350 | Nsdr=7.593 | Best=0.1350 | Bname=main | Pena311.2279
+- New best valid loss 0.1350
+- ----------------------------------------------------------------------
+- Training...
+- Train | Epoch 12 | 143/573 | 1.38 it/sec | Loss 0.1054 | Reco 0.1024 | Grad 0.0839 | Penalty 297.91
+- Train | Epoch 12 | 286/573 | 1.39 it/sec | Loss 0.1070 | Reco 0.1040 | Grad 0.0883 | Penalty 298.83
+- Train | Epoch 12 | 429/573 | 1.39 it/sec | Loss 0.1070 | Reco 0.1040 | Grad 0.0919 | Penalty 299.05
+- Train | Epoch 12 | 572/573 | 1.40 it/sec | Loss 0.1075 | Reco 0.1045 | Grad 0.0912 | Penalty 300.24
+- Train Summary | Epoch 12 | Loss=0.1075 | Reco=0.1045 | Grad=0.0912 | Penalty=300.2468
+- ----------------------------------------------------------------------
+- Cross validation...
+- Valid | Epoch 12 | 1/3 | 0.32 it/sec | Loss 0.1308 | Reco 0.1308 | Nsdr 8.019
+- Valid | Epoch 12 | 2/3 | 0.39 it/sec | Loss 0.1359 | Reco 0.1359 | Nsdr 7.615
+- Valid | Epoch 12 | 1/3 | 0.33 it/sec | Loss 0.1282 | Reco 0.1282 | Nsdr 8.019
+- Valid | Epoch 12 | 2/3 | 0.39 it/sec | Loss 0.1349 | Reco 0.1349 | Nsdr 7.576
+- Valid | Epoch 12 | 1/3 | 0.33 it/sec | Loss 0.1568 | Reco 0.1568 | Nsdr 6.421
+- Valid | Epoch 12 | 2/3 | 0.39 it/sec | Loss 0.1647 | Reco 0.1647 | Nsdr 5.984
+- Valid | Epoch 12 | 1/3 | 0.33 it/sec | Loss 0.1410 | Reco 0.1410 | Nsdr 7.284
+- Valid | Epoch 12 | 2/3 | 0.39 it/sec | Loss 0.1481 | Reco 0.1481 | Nsdr 6.844
+- Valid | Epoch 12 | 1/3 | 0.33 it/sec | Loss 0.1483 | Reco 0.1483 | Nsdr 6.889
+- Valid | Epoch 12 | 2/3 | 0.39 it/sec | Loss 0.1557 | Reco 0.1557 | Nsdr 6.446
+- Valid Summary | Epoch 12 | Loss=0.1349 | Reco=0.1349 | Nsdr=7.576 | Best=0.1349 | Bname=ema_batch_0enalty=312.6947
+- New best valid loss 0.1349
+- ----------------------------------------------------------------------
+- Training...
+- Train | Epoch 13 | 143/573 | 1.39 it/sec | Loss 0.1067 | Reco 0.1036 | Grad 0.0874 | Penalty 307.81
+- Train | Epoch 13 | 286/573 | 1.39 it/sec | Loss 0.1078 | Reco 0.1047 | Grad 0.0916 | Penalty 303.65
+- Train | Epoch 13 | 429/573 | 1.39 it/sec | Loss 0.1073 | Reco 0.1043 | Grad 0.0927 | Penalty 304.93
+- Train | Epoch 13 | 572/573 | 1.39 it/sec | Loss 0.1068 | Reco 0.1038 | Grad 0.0907 | Penalty 304.04
+- Train Summary | Epoch 13 | Loss=0.1068 | Reco=0.1038 | Grad=0.0907 | Penalty=304.0442
+- ----------------------------------------------------------------------
+- Cross validation...
+- Valid | Epoch 13 | 1/3 | 0.31 it/sec | Loss 0.1242 | Reco 0.1242 | Nsdr 8.264
+- Valid | Epoch 13 | 2/3 | 0.37 it/sec | Loss 0.1301 | Reco 0.1301 | Nsdr 7.859
+- Valid | Epoch 13 | 1/3 | 0.29 it/sec | Loss 0.1251 | Reco 0.1251 | Nsdr 8.219
+- Valid | Epoch 13 | 2/3 | 0.36 it/sec | Loss 0.1316 | Reco 0.1316 | Nsdr 7.774
+- Valid | Epoch 13 | 1/3 | 0.32 it/sec | Loss 0.1530 | Reco 0.1530 | Nsdr 6.620
+- Valid | Epoch 13 | 2/3 | 0.38 it/sec | Loss 0.1606 | Reco 0.1606 | Nsdr 6.189
+- Valid | Epoch 13 | 1/3 | 0.32 it/sec | Loss 0.1371 | Reco 0.1371 | Nsdr 7.509
+- Valid | Epoch 13 | 2/3 | 0.39 it/sec | Loss 0.1440 | Reco 0.1440 | Nsdr 7.068
+- Valid | Epoch 13 | 1/3 | 0.32 it/sec | Loss 0.1448 | Reco 0.1448 | Nsdr 7.076
+- Valid | Epoch 13 | 2/3 | 0.39 it/sec | Loss 0.1522 | Reco 0.1522 | Nsdr 6.635
+- Valid Summary | Epoch 13 | Loss=0.1301 | Reco=0.1301 | Nsdr=7.859 | Best=0.1301 | Bname=main | Pena301.4205
+- New best valid loss 0.1301
+- ----------------------------------------------------------------------
+- Training...
+- Train | Epoch 14 | 143/573 | 1.39 it/sec | Loss 0.1034 | Reco 0.0999 | Grad 0.0814 | Penalty 359.53
+- Train | Epoch 14 | 286/573 | 1.39 it/sec | Loss 0.1036 | Reco 0.1002 | Grad 0.0849 | Penalty 337.98
+- Train | Epoch 14 | 429/573 | 1.39 it/sec | Loss 0.1040 | Reco 0.1007 | Grad 0.0836 | Penalty 327.75
+- Train | Epoch 14 | 572/573 | 1.39 it/sec | Loss 0.1045 | Reco 0.1012 | Grad 0.0855 | Penalty 324.36
+- Train Summary | Epoch 14 | Loss=0.1045 | Reco=0.1012 | Grad=0.0855 | Penalty=324.3656
+- ----------------------------------------------------------------------
+- Cross validation...
+- Valid | Epoch 14 | 1/3 | 0.29 it/sec | Loss 0.1240 | Reco 0.1240 | Nsdr 8.350
+- Valid | Epoch 14 | 2/3 | 0.36 it/sec | Loss 0.1299 | Reco 0.1299 | Nsdr 7.940
+- Valid | Epoch 14 | 1/3 | 0.32 it/sec | Loss 0.1224 | Reco 0.1224 | Nsdr 8.397
+- Valid | Epoch 14 | 2/3 | 0.38 it/sec | Loss 0.1287 | Reco 0.1287 | Nsdr 7.955
+- Valid | Epoch 14 | 1/3 | 0.29 it/sec | Loss 0.1494 | Reco 0.1494 | Nsdr 6.809
+- Valid | Epoch 14 | 2/3 | 0.36 it/sec | Loss 0.1568 | Reco 0.1568 | Nsdr 6.379
+- Valid | Epoch 14 | 1/3 | 0.31 it/sec | Loss 0.1343 | Reco 0.1343 | Nsdr 7.675
+- Valid | Epoch 14 | 2/3 | 0.37 it/sec | Loss 0.1411 | Reco 0.1411 | Nsdr 7.238
+- Valid | Epoch 14 | 1/3 | 0.29 it/sec | Loss 0.1422 | Reco 0.1422 | Nsdr 7.222
+- Valid | Epoch 14 | 2/3 | 0.36 it/sec | Loss 0.1493 | Reco 0.1493 | Nsdr 6.787
+- Valid Summary | Epoch 14 | Loss=0.1287 | Reco=0.1287 | Nsdr=7.855 | Best=0.1287 | Bname=ema_batch_0enalty=317.2828
+- New best valid loss 0.1287
+- ----------------------------------------------------------------------
+- Training...
+- Train | Epoch 15 | 143/573 | 1.39 it/sec | Loss 0.1095 | Reco 0.1059 | Grad 0.0880 | Penalty 361.66
+- Train | Epoch 15 | 286/573 | 1.40 it/sec | Loss 0.1052 | Reco 0.1017 | Grad 0.0869 | Penalty 345.82
+- Train | Epoch 15 | 429/573 | 1.40 it/sec | Loss 0.1047 | Reco 0.1013 | Grad 0.0861 | Penalty 337.58
+- Train | Epoch 15 | 572/573 | 1.39 it/sec | Loss 0.1034 | Reco 0.1001 | Grad 0.0853 | Penalty 334.69
+- Train Summary | Epoch 15 | Loss=0.1034 | Reco=0.1001 | Grad=0.0853 | Penalty=334.6942
+- ----------------------------------------------------------------------
+- Cross validation...
+- Valid | Epoch 15 | 1/3 | 0.29 it/sec | Loss 0.1229 | Reco 0.1229 | Nsdr 8.416
+- Valid | Epoch 15 | 2/3 | 0.35 it/sec | Loss 0.1286 | Reco 0.1286 | Nsdr 8.003
+- Valid | Epoch 15 | 1/3 | 0.29 it/sec | Loss 0.1201 | Reco 0.1201 | Nsdr 8.552
+- Valid | Epoch 15 | 2/3 | 0.35 it/sec | Loss 0.1264 | Reco 0.1264 | Nsdr 8.110
+- Valid | Epoch 15 | 1/3 | 0.29 it/sec | Loss 0.1462 | Reco 0.1462 | Nsdr 6.990
+- Valid | Epoch 15 | 2/3 | 0.36 it/sec | Loss 0.1535 | Reco 0.1535 | Nsdr 6.559
+- Valid | Epoch 15 | 1/3 | 0.29 it/sec | Loss 0.1312 | Reco 0.1312 | Nsdr 7.854
+- Valid | Epoch 15 | 2/3 | 0.35 it/sec | Loss 0.1380 | Reco 0.1380 | Nsdr 7.413
+- Valid | Epoch 15 | 1/3 | 0.29 it/sec | Loss 0.1394 | Reco 0.1394 | Nsdr 7.380
+- Valid | Epoch 15 | 2/3 | 0.35 it/sec | Loss 0.1465 | Reco 0.1465 | Nsdr 6.942
+- Valid Summary | Epoch 15 | Loss=0.1264 | Reco=0.1264 | Nsdr=7.780 | Best=0.1264 | Bname=ema_batch_0enalty=321.1896
+- New best valid loss 0.1264
+- ----------------------------------------------------------------------
+- Training...
+- Train | Epoch 16 | 143/573 | 1.37 it/sec | Loss 0.1005 | Reco 0.0974 | Grad 0.0885 | Penalty 312.05
+- Train | Epoch 16 | 286/573 | 1.36 it/sec | Loss 0.0999 | Reco 0.0967 | Grad 0.0868 | Penalty 313.66
+- Train | Epoch 16 | 429/573 | 1.36 it/sec | Loss 0.1015 | Reco 0.0984 | Grad 0.0858 | Penalty 313.50
+- Train | Epoch 16 | 572/573 | 1.36 it/sec | Loss 0.1021 | Reco 0.0989 | Grad 0.0897 | Penalty 317.54
+- Train Summary | Epoch 16 | Loss=0.1021 | Reco=0.0989 | Grad=0.0897 | Penalty=317.5479
+- ----------------------------------------------------------------------
+- Cross validation...
+- Valid | Epoch 16 | 1/3 | 0.30 it/sec | Loss 0.1220 | Reco 0.1220 | Nsdr 8.451
+- Valid | Epoch 16 | 2/3 | 0.36 it/sec | Loss 0.1277 | Reco 0.1277 | Nsdr 8.031
+- Valid | Epoch 16 | 1/3 | 0.32 it/sec | Loss 0.1181 | Reco 0.1181 | Nsdr 8.692
+- Valid | Epoch 16 | 2/3 | 0.39 it/sec | Loss 0.1243 | Reco 0.1243 | Nsdr 8.250
+- Valid | Epoch 16 | 1/3 | 0.32 it/sec | Loss 0.1434 | Reco 0.1434 | Nsdr 7.144
+- Valid | Epoch 16 | 2/3 | 0.39 it/sec | Loss 0.1504 | Reco 0.1504 | Nsdr 6.723
+- Valid | Epoch 16 | 1/3 | 0.32 it/sec | Loss 0.1288 | Reco 0.1288 | Nsdr 7.998
+- Valid | Epoch 16 | 2/3 | 0.38 it/sec | Loss 0.1355 | Reco 0.1355 | Nsdr 7.562
+- Valid | Epoch 16 | 1/3 | 0.32 it/sec | Loss 0.1371 | Reco 0.1371 | Nsdr 7.516
+- Valid | Epoch 16 | 2/3 | 0.38 it/sec | Loss 0.1440 | Reco 0.1440 | Nsdr 7.079
+- Valid Summary | Epoch 16 | Loss=0.1243 | Reco=0.1243 | Nsdr=7.740 | Best=0.1243 | Bname=ema_batch_0enalty=319.5737
+- New best valid loss 0.1243
+- ----------------------------------------------------------------------
+- Training...
+- Train | Epoch 17 | 143/573 | 1.37 it/sec | Loss 0.1024 | Reco 0.0993 | Grad 0.0857 | Penalty 317.80
+- Train | Epoch 17 | 286/573 | 1.37 it/sec | Loss 0.1019 | Reco 0.0987 | Grad 0.0862 | Penalty 320.01
+- Train | Epoch 17 | 429/573 | 1.36 it/sec | Loss 0.1006 | Reco 0.0974 | Grad 0.0870 | Penalty 322.16
+- Train | Epoch 17 | 572/573 | 1.36 it/sec | Loss 0.1012 | Reco 0.0980 | Grad 0.0864 | Penalty 320.9474
+- Train Summary | Epoch 17 | Loss=0.1012 | Reco=0.0980 | Grad=0.0864 | Penalty=320.9474
+- ----------------------------------------------------------------------
+- Cross validation...
+- Valid | Epoch 17 | 1/3 | 0.29 it/sec | Loss 0.1179 | Reco 0.1179 | Nsdr 8.786
+- Valid | Epoch 17 | 2/3 | 0.35 it/sec | Loss 0.1244 | Reco 0.1244 | Nsdr 8.292
+- Valid | Epoch 17 | 1/3 | 0.29 it/sec | Loss 0.1165 | Reco 0.1165 | Nsdr 8.815
+- Valid | Epoch 17 | 2/3 | 0.36 it/sec | Loss 0.1226 | Reco 0.1226 | Nsdr 8.368
+- Valid | Epoch 17 | 1/3 | 0.29 it/sec | Loss 0.1408 | Reco 0.1408 | Nsdr 7.288
+- Valid | Epoch 17 | 2/3 | 0.36 it/sec | Loss 0.1477 | Reco 0.1477 | Nsdr 6.869
+- Valid | Epoch 17 | 1/3 | 0.29 it/sec | Loss 0.1268 | Reco 0.1268 | Nsdr 8.135
+- Valid | Epoch 17 | 2/3 | 0.35 it/sec | Loss 0.1333 | Reco 0.1333 | Nsdr 7.700
+- Valid | Epoch 17 | 1/3 | 0.30 it/sec | Loss 0.1352 | Reco 0.1352 | Nsdr 7.626
+- Valid | Epoch 17 | 2/3 | 0.36 it/sec | Loss 0.1419 | Reco 0.1419 | Nsdr 7.195
+- Valid Summary | Epoch 17 | Loss=0.1226 | Reco=0.1226 | Nsdr=7.758 | Best=0.1226 | Bname=ema_batch_0 | Penalty=318.1099
+- New best valid loss 0.1226
+- ----------------------------------------------------------------------
+- Training...
+- Train | Epoch 18 | 143/573 | 1.35 it/sec | Loss 0.0991 | Reco 0.0960 | Grad 0.0825 | Penalty 314.4824
+- Train | Epoch 18 | 286/573 | 1.36 it/sec | Loss 0.0997 | Reco 0.0966 | Grad 0.0838 | Penalty 312.3643
+- Train | Epoch 18 | 429/573 | 1.35 it/sec | Loss 0.0983 | Reco 0.0952 | Grad 0.0839 | Penalty 310.3921
+- Train | Epoch 18 | 572/573 | 1.35 it/sec | Loss 0.0982 | Reco 0.0952 | Grad 0.0822 | Penalty 308.7044
+- Train Summary | Epoch 18 | Loss=0.0982 | Reco=0.0952 | Grad=0.0822 | Penalty=308.7044
+- ----------------------------------------------------------------------
+- Cross validation...
+- Valid | Epoch 18 | 1/3 | 0.29 it/sec | Loss 0.1178 | Reco 0.1178 | Nsdr 8.706
+- Valid | Epoch 18 | 2/3 | 0.35 it/sec | Loss 0.1238 | Reco 0.1238 | Nsdr 8.287
+- Valid | Epoch 18 | 1/3 | 0.29 it/sec | Loss 0.1151 | Reco 0.1151 | Nsdr 8.925
+- Valid | Epoch 18 | 2/3 | 0.35 it/sec | Loss 0.1211 | Reco 0.1211 | Nsdr 8.473
+- Valid | Epoch 18 | 1/3 | 0.29 it/sec | Loss 0.1383 | Reco 0.1383 | Nsdr 7.432
+- Valid | Epoch 18 | 2/3 | 0.36 it/sec | Loss 0.1450 | Reco 0.1450 | Nsdr 7.017
+- Valid | Epoch 18 | 1/3 | 0.29 it/sec | Loss 0.1249 | Reco 0.1249 | Nsdr 8.272
+- Valid | Epoch 18 | 2/3 | 0.35 it/sec | Loss 0.1311 | Reco 0.1311 | Nsdr 7.842
+- Valid | Epoch 18 | 1/3 | 0.30 it/sec | Loss 0.1331 | Reco 0.1331 | Nsdr 7.750
+- Valid | Epoch 18 | 2/3 | 0.36 it/sec | Loss 0.1397 | Reco 0.1397 | Nsdr 7.328
+- Valid Summary | Epoch 18 | Loss=0.1211 | Reco=0.1211 | Nsdr=7.673 | Best=0.1211 | Bname=ema_batch_0 | Penalty=309.4341
+- New best valid loss 0.1211
+- ----------------------------------------------------------------------
+- Training...
+- Train | Epoch 19 | 143/573 | 1.34 it/sec | Loss 0.1006 | Reco 0.0974 | Grad 0.0878 | Penalty 317.0456
+- Train | Epoch 19 | 286/573 | 1.36 it/sec | Loss 0.0988 | Reco 0.0956 | Grad 0.0869 | Penalty 313.2108
+- Train | Epoch 19 | 429/573 | 1.35 it/sec | Loss 0.0973 | Reco 0.0942 | Grad 0.0857 | Penalty 310.0257
+- Train | Epoch 19 | 572/573 | 1.35 it/sec | Loss 0.0984 | Reco 0.0953 | Grad 0.0846 | Penalty 310.3402
+- Train Summary | Epoch 19 | Loss=0.0984 | Reco=0.0953 | Grad=0.0846 | Penalty=310.3402
+- ----------------------------------------------------------------------
+- Cross validation...
+- Valid | Epoch 19 | 1/3 | 0.29 it/sec | Loss 0.1171 | Reco 0.1171 | Nsdr 8.851
+- Valid | Epoch 19 | 2/3 | 0.35 it/sec | Loss 0.1243 | Reco 0.1243 | Nsdr 8.290
+- Valid | Epoch 19 | 1/3 | 0.29 it/sec | Loss 0.1137 | Reco 0.1137 | Nsdr 9.018
+- Valid | Epoch 19 | 2/3 | 0.35 it/sec | Loss 0.1196 | Reco 0.1196 | Nsdr 8.576
+- Valid | Epoch 19 | 1/3 | 0.29 it/sec | Loss 0.1361 | Reco 0.1361 | Nsdr 7.559
+- Valid | Epoch 19 | 2/3 | 0.36 it/sec | Loss 0.1428 | Reco 0.1428 | Nsdr 7.142
+- Valid | Epoch 19 | 1/3 | 0.29 it/sec | Loss 0.1231 | Reco 0.1231 | Nsdr 8.395
+- Valid | Epoch 19 | 2/3 | 0.35 it/sec | Loss 0.1295 | Reco 0.1295 | Nsdr 7.949
+- Valid | Epoch 19 | 1/3 | 0.29 it/sec | Loss 0.1318 | Reco 0.1318 | Nsdr 7.847
+- Valid | Epoch 19 | 2/3 | 0.35 it/sec | Loss 0.1384 | Reco 0.1384 | Nsdr 7.416
+- Valid Summary | Epoch 19 | Loss=0.1196 | Reco=0.1196 | Nsdr=7.736 | Best=0.1196 | Bname=ema_batch_0 | Penalty=346.3048
+- New best valid loss 0.1196
+- ----------------------------------------------------------------------
+- Training...
+- Train | Epoch 20 | 143/573 | 1.31 it/sec | Loss 0.0975 | Reco 0.0943 | Grad 0.0861 | Penalty 319.1265
+- Train | Epoch 20 | 286/573 | 1.34 it/sec | Loss 0.0992 | Reco 0.0960 | Grad 0.0856 | Penalty 317.2256
+- Train | Epoch 20 | 429/573 | 1.34 it/sec | Loss 0.0988 | Reco 0.0956 | Grad 0.0860 | Penalty 319.1315
+- Train | Epoch 20 | 572/573 | 1.34 it/sec | Loss 0.0983 | Reco 0.0951 | Grad 0.0851 | Penalty 317.8553
+- Train Summary | Epoch 20 | Loss=0.0983 | Reco=0.0951 | Grad=0.0851 | Penalty=317.8553
+- ----------------------------------------------------------------------
+- Cross validation...
+- Valid | Epoch 20 | 1/3 | 0.29 it/sec | Loss 0.1155 | Reco 0.1155 | Nsdr 8.850
+- Valid | Epoch 20 | 2/3 | 0.35 it/sec | Loss 0.1202 | Reco 0.1202 | Nsdr 8.489
+- Valid | Epoch 20 | 1/3 | 0.29 it/sec | Loss 0.1124 | Reco 0.1124 | Nsdr 9.118
+- Valid | Epoch 20 | 2/3 | 0.35 it/sec | Loss 0.1181 | Reco 0.1181 | Nsdr 8.680
+- Valid | Epoch 20 | 1/3 | 0.29 it/sec | Loss 0.1344 | Reco 0.1344 | Nsdr 7.672
+- Valid | Epoch 20 | 2/3 | 0.35 it/sec | Loss 0.1409 | Reco 0.1409 | Nsdr 7.261
+- Valid | Epoch 20 | 1/3 | 0.29 it/sec | Loss 0.1216 | Reco 0.1216 | Nsdr 8.491
+- Valid | Epoch 20 | 2/3 | 0.35 it/sec | Loss 0.1278 | Reco 0.1278 | Nsdr 8.050
+- Valid | Epoch 20 | 1/3 | 0.31 it/sec | Loss 0.1300 | Reco 0.1300 | Nsdr 7.962
+- Valid | Epoch 20 | 2/3 | 0.37 it/sec | Loss 0.1364 | Reco 0.1364 | Nsdr 7.538
+- Valid Summary | Epoch 20 | Loss=0.1181 | Reco=0.1181 | Nsdr=7.780 | Best=0.1181 | Bname=ema_batch_0 | Penalty=312.0033
+- New best valid loss 0.1181
+- ----------------------------------------------------------------------
+- Training...
+- Train | Epoch 21 | 143/573 | 1.31 it/sec | Loss 0.0961 | Reco 0.0929 | Grad 0.0843 | Penalty 313.3202
+- Train | Epoch 21 | 286/573 | 1.32 it/sec | Loss 0.0962 | Reco 0.0930 | Grad 0.0841 | Penalty 317.8430
+- Train | Epoch 21 | 429/573 | 1.33 it/sec | Loss 0.0968 | Reco 0.0936 | Grad 0.0837 | Penalty 318.4492
+- Train | Epoch 21 | 572/573 | 1.33 it/sec | Loss 0.0964 | Reco 0.0932 | Grad 0.0863 | Penalty 318.7245
+- Train Summary | Epoch 21 | Loss=0.0964 | Reco=0.0932 | Grad=0.0863 | Penalty=318.7245
+- ----------------------------------------------------------------------
+- Cross validation...
+- Valid | Epoch 21 | 1/3 | 0.31 it/sec | Loss 0.1162 | Reco 0.1162 | Nsdr 8.841
+- Valid | Epoch 21 | 2/3 | 0.37 it/sec | Loss 0.1221 | Reco 0.1221 | Nsdr 8.428
+- Valid | Epoch 21 | 1/3 | 0.29 it/sec | Loss 0.1114 | Reco 0.1114 | Nsdr 9.200
+- Valid | Epoch 21 | 2/3 | 0.35 it/sec | Loss 0.1169 | Reco 0.1169 | Nsdr 8.769
+- Valid | Epoch 21 | 1/3 | 0.29 it/sec | Loss 0.1328 | Reco 0.1328 | Nsdr 7.772
+- Valid | Epoch 21 | 2/3 | 0.35 it/sec | Loss 0.1392 | Reco 0.1392 | Nsdr 7.359
+- Valid | Epoch 21 | 1/3 | 0.29 it/sec | Loss 0.1199 | Reco 0.1199 | Nsdr 8.597
+- Valid | Epoch 21 | 2/3 | 0.35 it/sec | Loss 0.1260 | Reco 0.1260 | Nsdr 8.167
+- Valid | Epoch 21 | 1/3 | 0.29 it/sec | Loss 0.1287 | Reco 0.1287 | Nsdr 8.033
+- Valid | Epoch 21 | 2/3 | 0.35 it/sec | Loss 0.1352 | Reco 0.1352 | Nsdr 7.601
+- Valid Summary | Epoch 21 | Loss=0.1169 | Reco=0.1169 | Nsdr=7.769 | Best=0.1169 | Bname=ema_batch_0 | Penalty=319.6860
+- New best valid loss 0.1169
+- ----------------------------------------------------------------------
+- Training...
+- Train | Epoch 22 | 143/573 | 1.30 it/sec | Loss 0.0952 | Reco 0.0920 | Grad 0.0893 | Penalty 318.7643
+- Train | Epoch 22 | 286/573 | 1.32 it/sec | Loss 0.0972 | Reco 0.0940 | Grad 0.0860 | Penalty 320.0561
+
